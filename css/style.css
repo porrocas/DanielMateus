@@ -1,5 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #logo {
@@ -36,7 +37,6 @@
 }
 
 .center-content {
-    padding: 10px !important;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
@@ -53,4 +53,22 @@
 
 .centerText {
     text-align: center;
+}
+
+#present {
+    background-image: url('../img/bg1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animationsScrollTop {
+    visibility: hidden;
+}
+
+#myWorks {
+    background-size: cover;
+    background-image: url('../img/bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }

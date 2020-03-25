@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
 </head>
 
 <body>
@@ -26,14 +27,14 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Sobre Mi</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Mi trabajo</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#">Mis WebApps</a></li>
                 <li><a href="#">Portafolio</a></li>
                 <li>
                     <a href="#" class="waves-effect waves-light btn">
                         <span class="material-icons">
-                            phone_in_talk
-                        </span>
+                        phone_in_talk
+                    </span>
                     </a>
                 </li>
             </ul>
@@ -42,162 +43,199 @@
     <ul class="sidenav" id="mobile-demo">
         <li><a class="logoMovil" href="#">DanielMateus|<small>Dev</small></a></li>
         <hr>
-        <li><a href="#">Sobre Mi</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a href="#">Mi trabajo</a></li>
+        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#">Mis WebApps</a></li>
         <li><a href="#">Portafolio</a></li>
         <li>
             <a href="#" class="waves-effect waves-light btn">
                 <span class="material-icons hide-on-small-only hide-on-med-only">
-                    phone_in_talk
-                </span> Contactame
+                phone_in_talk
+            </span> Contactame
             </a>
         </li>
     </ul>
     <!--Nav Bottom-->
 
-    <!--Main Top-->
-    <div class="row mainDiv">
-        <div class="col m6 s12">
-            <div class="col s12 m8">
-                <div class="card-panel grey lighten-5 z-depth-1">
-                    <div class="row">
-                        <div class="col m4 s12">
-                            <img src="./img/perfil.jpg" alt="foto de perfil daniel mateus" class="circle responsive-img">
-                        </div>
-                        <div class="col m8 s12">
-                            <h5>Daniel Mateus Ovalle</h5>
-                            <blockquote>
-                                Ingeniero Mecatrónico & Developer.
-                            </blockquote>
-                            <span class="black-text">
-                                Hola, Tengo 23 años, soy desarrollador de webApps e ingeniero mecatronico, mi hobby es la biología y la tecnología.
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col m12 s12">
-                <br>
-                <h6>Enviame tu propuesta:</h6>
-                <blockquote style="border-color: #26a69a;">
-                    Si me envias una propuesta formal y dejas tus datos pronto me contactare contigo.
-                </blockquote>
-                <br>
-                <div class="row z-depth-5">
-                    <div class="col m6 s12">
-                        <img src="./img/freelance.jpg" width="100%" alt="freelance">
-                    </div>
-                    <div class="col m6 s12">
-                        <form class="m12 s12">
-                            <br>
-                            <div class="input-field col m12 s12">
-                                <select id="select">
-                                  <option value="" disabled selected>Selecciona una opción.</option>
-                                  <option value="1">Cotizar proyecto</option>
-                                  <option value="2">Contactar</option>
-                                  <option value="3">Propuesta de trabajo</option>
-                                  <option value="3">Sugerencia</option>
-                                  <option value="3">Queja</option>
-                                </select>
-                                <label>Motivo de contacto</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <input placeholder="Envio cotizacion" type="text" class="validate">
-                                <label for="first_name">Asunto</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Mensaje</label>
-                            </div>
-                            <div class="file-field input-field col s12">
-                                <div class="btn">
-                                    <span>File</span>
-                                    <input type="file">
-                                </div>
-                                <div class="file-path-wrapper">
-                                    <input class="file-path validate" type="text" placeholder="Sube tu propuesta">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <small>El gran motor de cambio, es la tecnología! codifica como si fuera para ti.</small>
-            </div>
-        </div>
-        <div class="col m6 s12">
-            <h5>Mis WebApps:</h5>
-            <div class="row m12 s12">
-                <div class="col m1 s3 offset-m1 offset-s1 z-depth-2 center-content" style="margin-right: 10px;">
-                    <img src="./img/covid.png" width="50px" alt="webApp covid 19 mapa">
-                    <h6>Covid19</h6>
-                </div>
-                <div class="col m1 s3 z-depth-2 center-content" style="margin-right: 10px;">
-                    <img src="./img/recordatorios.png" width="50px" alt="webApp covid 19 mapa">
-                    <h6>Reminders</h6>
-                </div>
-                <div class="col m1 s3 z-depth-2 center-content" style="margin-right: 10px;">
-                    <img src="./img/cart.png" width="50px" alt="webApp covid 19 mapa">
-                    <h6>CartShop</h6>
-                </div>
-            </div>
-            <hr>
-            <div class="col m12 s12">
-                <h5>Actualidad Sobre El Covid-19</h5>
-                <blockquote>
-                    En este mapa puedes ver todos los casos activos de covid-19 a nivel mundial.
-                </blockquote>
-                <div id="map" class="map col m12 s12"></div>
-            </div>
-        </div>
-    </div>
-    <!--Main Bottom-->
-
-    <!--Parallax Top-->
-    <div class="parallax-container">
-        <div class="parallax"><img id="imgParallax1" src="./img/p0.jpg"></div>
-    </div>
-    <div class="section white">
+    <!--Presentacion Top-->
+    <div id="present" class="row m12 s12">
         <br>
-        <div class="container">
-            <div class="row">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col s12 m4 l4 xl2 offset-m4 offset-l4 offset-xl5">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./img/perfil.jpg" alt="imagen de perfil daniel mateus ovalle desarrollador" class="circle responsive-img">
+                        <span class="card-title" style="font-size: 1em;">Daniel Mateus Ovalle</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">call</i></a>
+                    </div>
+                    <div class="card-content">
+                        <blockquote>
+                            Ingeniero Mecatrónico & Developer.
+                        </blockquote>
+                        <p>Hola, Tengo 23 años, soy desarrollador de webApps e ingeniero mecatronico, mi hobby es la biología y la tecnología.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
 
-                <div class="col m4 s12 centerText">
-                    <span class="material-icons" style="font-size: 6rem; color: rgb(190, 81, 81);">
-                    code
-                </span>
+            <div class="col m4 l4 xl4 s12 centerText white-text">
+                <div class="col m10 offset-m1">
+                    <span class="material-icons" style="font-size: 4rem;">
+                        code
+                    </span>
                     <h4>Uso buenas practicas.</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, veniam debitis quos deleniti autem ad mollitia eum libero cum impedit eos voluptatibus nesciunt unde vitae vel aliquid dolores id.</p>
+                    <p>Antes de empezar a codificar, tengo que tener en cuenta mi objetivo final, desde el inicio planteo mi patrón de diseño y en base a este, escribo mi código siguiendo buenas practicas para mejorar la calidad de mi software.</p>
                 </div>
+            </div>
 
-                <div class="col m4 s12 centerText">
-                    <span class="material-icons" style="font-size: 6rem; color: rgb(190, 81, 81);">
-                    build
-                </span>
+            <div class="col m4 s12 centerText white-text">
+                <div class="col m10 offset-m1">
+                    <span class="material-icons" style="font-size: 4rem;">
+                        build
+                    </span>
                     <h4>Siempre ofrezco soporte</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, veniam debitis quos deleniti autem ad mollitia eum libero cum impedit eos voluptatibus nesciunt unde vitae vel aliquid dolores id.</p>
+                    <p>No busco un solo trabajo, busco una experiencia donde doy lo mejor de mi, es por eso que siempre ofrezco soporte en los trabajos que he realizado, el software es como un jardín, tienes que cuidarlo y hacerle mantenimiento cada cierto
+                        tiempo.
+                    </p>
                 </div>
+            </div>
 
-                <div class="col m4 s12 centerText">
-                    <span class="material-icons" style="font-size: 6rem; color: rgb(190, 81, 81);">
-                    bug_report
-                </span>
+            <div class="col m4 s12 centerText white-text">
+                <div class="col m10 offset-m1">
+                    <span class="material-icons" style="font-size: 4rem;">
+                        bug_report
+                    </span>
                     <h4>Arreglo mis errorres</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, veniam debitis quos deleniti autem ad mollitia eum libero cum impedit eos voluptatibus nesciunt unde vitae vel aliquid dolores id.</p>
+                    <p>Ni el mejor grupo de ingenieros y desarrolladores, codifican un codigo sin un solo bug, es por eso que si llegas a tener un error en mi código, me comprometo a solucionarlo.</p>
                 </div>
-
             </div>
         </div>
         <br>
+        <br>
+        <br>
     </div>
-    <div class="parallax-container">
-        <div class="parallax"><img id="imgParallax2" src="./img/p1.jpg"></div>
+    <!--Presentacion Bottom-->
+
+    <!--Skills Top-->
+    <div id="habilidades" class="container">
+        <div class="row valign">
+            <div class="col l4 m6 s12 offset-l2">
+                <img src="./img/habilidades.jpg" class="animationsScrollTop responsive-img" alt="habilidades personales">
+            </div>
+            <div class="col l6 m6 s12 blue-grey-text">
+                <h3>Habilidades como desarrollador</h3>
+                <blockquote style="border-color: #64ffda;">
+                    Como desarrollador web, me gusta enfocarme en una interfaz limpia y agradable, aplicando conocimientos de UX y UI. Siempre desarrollo con mucho amor y compromiso, quiero mostrar lo mejor de mi!
+                </blockquote>
+                <div class="container">
+                    <div class="row">
+                        <div class="col l2 m2 s2">
+                            <img src="./img/html-5.png" alt="habilidades" class="responsive-img">
+                        </div>
+                        <div class="col l2 m2 s2">
+                            <img src="./img/css.png" alt="habilidades" class="responsive-img">
+                        </div>
+                        <div class="col l2 m2 s2">
+                            <img src="./img/javascript.png" alt="habilidades" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row valign">
+            <div class="col l4 m6 s12 offset-l2">
+                <img src="./img/ilustrator.jpg" class="animationsScrollTop responsive-img" alt="habilidades personales">
+            </div>
+            <div class="col l6 m6 s12 blue-grey-text">
+                <h3>Diseño Grafico:</h3>
+                <blockquote style="border-color: #ef5350;">
+                    El desarrollo de interfaces es mi pasion, creo que puedes tener el mejor sitio web o la mejor idea, pero si tu interfaz no funciona o es mala, pierdes el 99% de posibilidad de triunfar!
+                </blockquote>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col l2 m2 s2">
+                            <img src="./img/photoshop.png" alt="habilidades" class="responsive-img">
+                        </div>
+                        <div class="col l2 m2 s2">
+                            <img src="./img/adobe.png" alt="habilidades" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row valign">
+            <div class="col l4 m6 s12 offset-l2">
+                <img src="./img/server.jpg" class="animationsScrollTop responsive-img" alt="habilidades personales">
+            </div>
+            <div class="col l6 m6 s12 blue-grey-text">
+                <h3>Desarrollo BackEnd:</h3>
+                <blockquote style="border-color: black;">
+                    Como ingeniero tengo una gran capacidad de analisis y resolucion de problemas, lo que me da una gran ventaja a la hora de codificar problemas en el servidor para dar solución de manera optima y eficaz, teniendo en cuenta siempre la seguridad y rendimiento.
+                </blockquote>
+                <div class="container">
+                    <div class="row ">
+                        <div class="col l2 m2 s2">
+                            <img src="./img/php.png" alt="habilidades" class="responsive-img">
+                        </div>
+                        <div class="col l2 m2 s2">
+                            <img src="./img/nodejs.png" alt="habilidades" class="responsive-img">
+                        </div>
+                        <div class="col l2 m2 s2">
+                            <img src="./img/mysql.png" alt="habilidades" class="responsive-img">
+                        </div>
+                        <div class="col l2 m2 s2">
+                            <img src="./img/mongo.png" alt="habilidades" class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!--Parallax Bottom-->
+    <!--Skills Bottom-->
+
+    <!--WebApps top-->
+    <div id="myWorks" class="row m12 s12 white-text">
+        <div class="row m12 s12">
+            <div class="col m10 s12 offset-m1">
+                <h3>Un poco de mis trabajos:</h3>
+                <blockquote>
+                    a continuación te mostrate unas webApps que he implementado en algun momento.
+                </blockquote>
+            </div>
+            <div class="row">
+                <div id="appFace" class="col m6 s12 center-align">
+                    <img src="./img/face-recognition.png" alt="">
+                    <p>Iniciar webApp de Face Recognition</p>
+                    <button class="startApp waves-effect waves-light btn-large">Start App</button>
+                </div>
+                <div class="col m6 s12 center-align">
+                    <h3>Face Recognition JavaScript:</h3>
+                    <blockquote>
+                        Es una web app capaz de reconocer tus expreciones faciales, utilizando un api creada en javascript que a su ves usa tensorflow. es muy potente ya que tambien se puede entrenar con rostros y reconocer con nombre propio a cada persona.
+                    </blockquote>
+                </div>
+            </div>
+            <div id="containerMap" class="row valign-wrapper">
+                <div class="col m6 s12 center-align">
+                    <h3>Face Recognition JavaScript:</h3>
+                    <p>
+                        En esta webApp puedes ver la actualidad del covid-19, funciona con la API de google maps, y los datos se traen a traves del API de wuhan sobre el coronavirus, son datos en tiempo real a nivel mundial
+                    </p>
+                </div>
+                <div class="col m6 s12 center-align">
+                    <div id="map" class="map col m12 s12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--WebApps top-->
 
     <!--Footer Top-->
     <br>
@@ -239,6 +277,7 @@
 
     <!--Js-->
     <script src="./js/interactive.js"></script>
+    <script src="./js/face-api.min.js"></script>
 </body>
 
 </html>
