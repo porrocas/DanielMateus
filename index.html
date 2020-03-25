@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--MetaData-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Mateus | Desarrollador WebApps</title>
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Nav Top-->
+    <nav class=" blue-grey darken-4">
+        <div class="nav-wrapper">
+            <a id="logo" href="#!" class="brand-logo"> <span class="material-icons hide-on-small-only hide-on-med-only">code</span> DanielMateus|<small>Dev</small></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Sobre Mi</a></li>
+                <li><a href="#">Habilidades</a></li>
+                <li><a href="#">Mi trabajo</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li>
+                    <a href="#" class="waves-effect waves-light btn">
+                        <span class="material-icons">
+                            phone_in_talk
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a class="logoMovil" href="#">DanielMateus|<small>Dev</small></a></li>
+        <hr>
+        <li><a href="#">Sobre Mi</a></li>
+        <li><a href="#">Habilidades</a></li>
+        <li><a href="#">Mi trabajo</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li>
+            <a href="#" class="waves-effect waves-light btn">
+                <span class="material-icons hide-on-small-only hide-on-med-only">
+                    phone_in_talk
+                </span> Contactame
+            </a>
+        </li>
+    </ul>
+    <!--Nav Bottom-->
+
+    <!--Main Top-->
+    <div class="row mainDiv">
+        <div class="col m6 s12">
+            <div class="col s12 m8">
+                <div class="card-panel grey lighten-5 z-depth-1">
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <img src="./img/perfil.jpg" alt="foto de perfil daniel mateus" class="circle responsive-img">
+                        </div>
+                        <div class="col m8 s12">
+                            <h5>Daniel Mateus Ovalle</h5>
+                            <blockquote>
+                                Ingeniero Mecatrónico & Developer.
+                            </blockquote>
+                            <span class="black-text">
+                                Hola, Tengo 23 años, soy desarrollador de webApps e ingeniero mecatronico, mi hobby es la biología y la tecnología.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m12 s12">
+                <br>
+                <h6>Enviame tu propuesta:</h6>
+                <blockquote style="border-color: #26a69a;">
+                    Si me envias una propuesta formal y dejas tus datos pronto me contactare contigo.
+                </blockquote>
+                <br>
+                <div class="row z-depth-5">
+                    <div class="col m6 s12">
+                        <img src="./img/freelance.jpg" width="100%" alt="freelance">
+                    </div>
+                    <div class="col m6 s12">
+                        <form class="m12 s12">
+                            <br>
+                            <div class="input-field col m12 s12">
+                                <select id="select">
+                                  <option value="" disabled selected>Selecciona una opción.</option>
+                                  <option value="1">Cotizar proyecto</option>
+                                  <option value="2">Contactar</option>
+                                  <option value="3">Propuesta de trabajo</option>
+                                  <option value="3">Sugerencia</option>
+                                  <option value="3">Queja</option>
+                                </select>
+                                <label>Motivo de contacto</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Envio cotizacion" type="text" class="validate">
+                                <label for="first_name">Asunto</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Mensaje</label>
+                            </div>
+                            <div class="file-field input-field col s12">
+                                <div class="btn">
+                                    <span>File</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" placeholder="Sube tu propuesta">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <small>El gran motor de cambio, es la tecnología! codifica como si fuera para ti.</small>
+            </div>
+        </div>
+        <div class="col m6 s12">
+            <h5>Mis WebApps:</h5>
+            <div class="row m12 s12">
+                <div class="col m1 s3 offset-m1 offset-s1 z-depth-2 center-content" style="margin-right: 10px;">
+                    <img src="./img/covid.png" width="50px" alt="webApp covid 19 mapa">
+                    <h6>Covid19</h6>
+                </div>
+                <div class="col m1 s3 z-depth-2 center-content" style="margin-right: 10px;">
+                    <img src="./img/recordatorios.png" width="50px" alt="webApp covid 19 mapa">
+                    <h6>Reminders</h6>
+                </div>
+                <div class="col m1 s3 z-depth-2 center-content" style="margin-right: 10px;">
+                    <img src="./img/cart.png" width="50px" alt="webApp covid 19 mapa">
+                    <h6>CartShop</h6>
+                </div>
+            </div>
+            <hr>
+            <div class="col m12 s12">
+                <h5>Actualidad Sobre El Covid-19</h5>
+                <blockquote>
+                    En este mapa puedes ver todos los casos activos de covid-19 a nivel mundial.
+                </blockquote>
+                <div id="map" class="map col m12 s12"></div>
+            </div>
+        </div>
+    </div>
+    <!--Main Bottom-->
+
+    <!--Parallax Top-->
+    <div class="parallax-container">
+        <div class="parallax"><img id="imgParallax1" src="./img/p0.jpg"></div>
+    </div>
+    <div class="section white">
+        <br>
+        <div class="container">
+            <div class="row">
+
+                <div class="col m4 s12 centerText">
+                    <span class="material-icons" style="font-size: 6rem; color: rgb(190, 81, 81);">
+                    code
+                </span>
+                    <h4>Uso buenas practicas.</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, veniam debitis quos deleniti autem ad mollitia eum libero cum impedit eos voluptatibus nesciunt unde vitae vel aliquid dolores id.</p>
+                </div>
+
+                <div class="col m4 s12 centerText">
+                    <span class="material-icons" style="font-size: 6rem; color: rgb(190, 81, 81);">
+                    build
+                </span>
+                    <h4>Siempre ofrezco soporte</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, veniam debitis quos deleniti autem ad mollitia eum libero cum impedit eos voluptatibus nesciunt unde vitae vel aliquid dolores id.</p>
+                </div>
+
+                <div class="col m4 s12 centerText">
+                    <span class="material-icons" style="font-size: 6rem; color: rgb(190, 81, 81);">
+                    bug_report
+                </span>
+                    <h4>Arreglo mis errorres</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, veniam debitis quos deleniti autem ad mollitia eum libero cum impedit eos voluptatibus nesciunt unde vitae vel aliquid dolores id.</p>
+                </div>
+
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img id="imgParallax2" src="./img/p1.jpg"></div>
+    </div>
+    <!--Parallax Bottom-->
+
+    <!--Footer Top-->
+    <br>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Daniel Mateus | Desarrollador</h5>
+                    <p class="grey-text text-lighten-4">Podemos crear grandes cosas, tu imagínalo y yo lo hago realidad por ti.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Contacto:</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">u1802833@unimilitar.edu.co</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Telefono +57 316 698 9045</a></li>
+                        <hr>
+                        <li><a class="grey-text text-lighten-3" href="#!">Linkedin</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Freelancer</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">workana</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">upWork</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Daniel Mateus
+                <a class="grey-text text-lighten-4 right" href="#!">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Bottom-->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Api Maps-->
+    <script type="module" src="./js/covid.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7gkwhAEj-6cKNY9HoGhW2aHMM9csCOcE"></script>
+
+    <!--Js-->
+    <script src="./js/interactive.js"></script>
+</body>
+
+</html>

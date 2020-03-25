@@ -1,0 +1,56 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    margin: 0px 10px;
+    font-weight: 600;
+    color: white;
+}
+
+#logo>span {
+    color: aqua;
+}
+
+#logo>small {
+    font-weight: 300;
+    color: aqua;
+}
+
+.logoMovil {
+    font-size: 1.5em !important;
+    font-weight: 600;
+}
+
+.logoMovil small {
+    font-weight: 300;
+}
+
+.mainDiv {
+    margin-top: 10px;
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+}
+
+.center-content {
+    padding: 10px !important;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.center-content>h6 {
+    font-weight: 600;
+    font-size: .8em;
+}
+
+.centerText {
+    text-align: center;
+}

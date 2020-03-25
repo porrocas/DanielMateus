@@ -1,0 +1,22 @@
+{
+  "name": "daniel-mateus",
+  "version": "1.0.0",
+  "description": "Mi sitio web y portafolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porrocas/DanielMateus.git"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Daniel Mateus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porrocas/DanielMateus/issues"
+  },
+  "homepage": "https://github.com/porrocas/DanielMateus#readme"
+}
