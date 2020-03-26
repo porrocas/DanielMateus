@@ -3,10 +3,10 @@ const $map = document.getElementById('map');
 
 const map = new window.google.maps.Map($map, {
     center: {
-        lat: 4.570868,
-        lng: -74.2973328
+        lat: 0,
+        lng: 0
     },
-    zoom: 4,
+    zoom: 3,
     styles
 });
 
@@ -20,7 +20,7 @@ async function getData() {
 
 function renderExtraData({ confirmed, deaths, recovered, provincestate, countryregion }) {
     return `
-      <div>
+      <div class="black-text left-align">
             <p><strong>${provincestate}-${countryregion}</strong></p>
             <p>Confirmados: ${confirmed}</p>
             <p>Muertos: ${deaths}</p>
@@ -32,6 +32,7 @@ function renderExtraData({ confirmed, deaths, recovered, provincestate, countryr
 async function renderData() {
     const data = await getData();
     const popup = new window.google.maps.InfoWindow();
+    console.log(data);
     data.forEach(item => {
         const marker = new window.google.maps.Marker({
             position: {

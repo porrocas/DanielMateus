@@ -63,7 +63,7 @@
         <br>
         <br>
         <div class="row">
-            <div class="col s12 m4 l4 xl2 offset-m4 offset-l4 offset-xl5">
+            <div class="col s12 m4 l4 xl4 offset-m4 offset-l4 offset-xl4">
                 <div class="card">
                     <div class="card-image">
                         <img src="./img/perfil.jpg" alt="imagen de perfil daniel mateus ovalle desarrollador" class="circle responsive-img">
@@ -208,35 +208,39 @@
                 <blockquote>
                     a continuación te mostrate unas webApps que he implementado en algun momento.
                 </blockquote>
+                <hr>
+                <br>
+                <br>
             </div>
             <div class="row">
-                <div id="appFace" class="col m6 s12 center-align">
+                <div id="appFace" class="col m4 offset-m2 s12 center-align">
                     <img src="./img/face-recognition.png" alt="">
                     <p>Iniciar webApp de Face Recognition</p>
                     <button class="startApp waves-effect waves-light btn-large">Start App</button>
                 </div>
-                <div class="col m6 s12 center-align">
-                    <h3>Face Recognition JavaScript:</h3>
+                <div class="col m4 s12 center-align">
+                    <h3>Face Recognition JavaScript</h3>
                     <blockquote>
                         Es una web app capaz de reconocer tus expreciones faciales, utilizando un api creada en javascript que a su ves usa tensorflow. es muy potente ya que tambien se puede entrenar con rostros y reconocer con nombre propio a cada persona.
                     </blockquote>
                 </div>
             </div>
-            <div id="containerMap" class="row valign-wrapper">
-                <div class="col m6 s12 center-align">
-                    <h3>Face Recognition JavaScript:</h3>
-                    <p>
-                        En esta webApp puedes ver la actualidad del covid-19, funciona con la API de google maps, y los datos se traen a traves del API de wuhan sobre el coronavirus, son datos en tiempo real a nivel mundial
-                    </p>
+            <div id="containerMap" class="row">
+                <div class="col m12 s12 center-align">
+                    <div class="container">
+                        <h3>Actualidad Covid-19</h3>
+                        <p>
+                            En esta webApp puedes ver la actualidad del covid-19, funciona con la API de google maps, y los datos se traen a traves del API de wuhan sobre el coronavirus, son datos en tiempo real a nivel mundial
+                        </p>
+                    </div>
                 </div>
-                <div class="col m6 s12 center-align">
-                    <div id="map" class="map col m12 s12"></div>
+                <div class="col m8 offset-m2 s12 center-align">
+                    <div id="map" class="map"></div>
                 </div>
             </div>
         </div>
     </div>
     <!--WebApps top-->
-
     <!--Footer Top-->
     <br>
     <footer class="page-footer">
@@ -276,8 +280,10 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7gkwhAEj-6cKNY9HoGhW2aHMM9csCOcE"></script>
 
     <!--Js-->
-    <script src="./js/interactive.js"></script>
     <script src="./js/face-api.min.js"></script>
+    <script defer src="./js/interactive.js"></script>
 </body>
 
 </html>
+<video src=""></video>
+<canvas></canvas>

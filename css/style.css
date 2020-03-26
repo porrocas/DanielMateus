@@ -72,3 +72,22 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@media (min-width: 426px) {
+    #myWorks {
+        background-color: #212121;
+        background-image: none;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top-right-radius: 300px;
+        border-top: solid 20px aqua;
+        border-bottom: solid 20px aqua;
+    }
+}
+
+canvas {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
