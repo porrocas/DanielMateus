@@ -11,13 +11,13 @@ function addEvents() {
         const elems = document.querySelectorAll('.sidenav');
         const instances = M.Sidenav.init(elems);
 
-        //slider
-        var elemsSlider = document.querySelectorAll('.carousel');
-        var instancesSlider = M.Carousel.init(elemsSlider);
-
         // formulario cotizaciones
         var elems2 = document.querySelectorAll('select');
         var instances2 = M.FormSelect.init(elems2);
+
+        //parallax
+        var elems3 = document.querySelectorAll('.parallax');
+        var instances3 = M.Parallax.init(elems3);
 
         removeClassResponsive();
     });

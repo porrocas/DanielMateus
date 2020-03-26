@@ -26,10 +26,9 @@
             <a id="logo" href="#!" class="brand-logo"> <span class="material-icons hide-on-small-only hide-on-med-only">code</span> DanielMateus|<small>Dev</small></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Sobre Mi</a></li>
+                <li><a href="#present">Sobre Mi</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#">Mis WebApps</a></li>
-                <li><a href="#">Portafolio</a></li>
+                <li><a href="#myWorks">Mis WebApps</a></li>
                 <li>
                     <a href="#" class="waves-effect waves-light btn">
                         <span class="material-icons">
@@ -43,10 +42,9 @@
     <ul class="sidenav" id="mobile-demo">
         <li><a class="logoMovil" href="#">DanielMateus|<small>Dev</small></a></li>
         <hr>
-        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#present">Sobre mi</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#">Mis WebApps</a></li>
-        <li><a href="#">Portafolio</a></li>
+        <li><a href="#myWorks">Mis WebApps</a></li>
         <li>
             <a href="#" class="waves-effect waves-light btn">
                 <span class="material-icons hide-on-small-only hide-on-med-only">
@@ -217,6 +215,8 @@
                     <img src="./img/face-recognition.png" alt="">
                     <p>Iniciar webApp de Face Recognition</p>
                     <button class="startApp waves-effect waves-light btn-large">Start App</button>
+                    <br>
+                    <small>Procura iniciar esta webApp en laptops o smartphones con min 4Gb de Ram.</small>
                 </div>
                 <div class="col m4 s12 center-align">
                     <h3>Face Recognition JavaScript</h3>
@@ -239,8 +239,93 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col offset-m1">
+                <h3>Otras webApps:</h3>
+                <p>A parte de las 2 webApps anteriores he desarrollado para la policía nacional de mi país, para medianas empresas, fundaciones y sitios web de presentación.</p>
+            </div>
+        </div>
     </div>
     <!--WebApps top-->
+    <!--Contrato Form Top-->
+    <div class="container">
+        <br>
+        <br>
+        <div class="row offset-m1 z-depth-5">
+            <div class="col m5 offset-m1">
+                <h4 class="grey-text">Si deseas hablar conmigo puedes completar este formulario, y pronto hablaremos.</h4>
+                <img src="./img/freelance.jpg" class="responsive-img" alt="logo freelance">
+            </div>
+            <br>
+            <br>
+            <div class="col m5">
+                <form>
+                    <br>
+                    <br>
+                    <div class="input-field col s12">
+                        <select required>
+                              <option value="" disabled selected>Motivo de contacto:</option>
+                              <option value="1">Contacto</option>
+                              <option value="1">Propuesta de trabajo</option>
+                              <option value="2">Cotización</option>
+                              <option value="3">Ayuda</option>
+                              <option value="3">Sugerencia</option>
+                            </select>
+                        <label>Te atenderé:</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="first_name2" type="text" class="validate">
+                        <label class="active" for="first_name2">Tu nombre *</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone *</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email *</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Email de contacto</span>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Mensaje *</label>
+                    </div>
+                    <div class="row">
+                        <div class="col m12 s12">
+                            <div class="file-field input-field">
+                                <div class="btn">
+                                    <span>File</span>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input class="file-path validate" type="text" placeholder="Sube tu propuesta o proyecto">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <!--Contrato Form Bottom-->
+    <!--Parallax top-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="./img/parallax1.jpg"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Trabajemos para hacer triunfar tus ideas!</h2>
+            <p class="grey-text text-darken-3 lighten-3">PDobla tu tasa de fracaso. Piensas que el fracaso es el enemigo del éxito. Pero no es así en absoluto. Puedes dejar que el fracaso te desanime o puedes aprender de él, así que adelante, comete errores. Todos los que puedas. Recuerde que es
+                donde encontrarás el éxito – <small>Thomas J. Watson</small>.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./img/parallax2.jpg"></div>
+    </div>
+    <!--Parallax Bottom-->
     <!--Footer Top-->
     <br>
     <footer class="page-footer">
@@ -285,5 +370,3 @@
 </body>
 
 </html>
-<video src=""></video>
-<canvas></canvas>
