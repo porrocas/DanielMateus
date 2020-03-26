@@ -67,10 +67,7 @@
 }
 
 #myWorks {
-    background-size: cover;
-    background-image: url('../img/bg2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #212121;
 }
 
 @media (min-width: 426px) {
